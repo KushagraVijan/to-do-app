@@ -1,0 +1,89 @@
+body {
+    background: #0d1521;
+    font-family: arial;
+    color: #989898;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+#to-do {
+    position: relative;
+    width: 90%;
+    background: #090d13;
+    margin: 10px auto;
+    padding: 25px;
+}
+
+#to-do form:after {
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 20px;
+    background: #181c22;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #989898;
+}
+
+button {
+    padding: 20px;
+    width: 30%;
+    float: left;
+    background: #23282e;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.item-text {
+    display: inline-block;
+    margin: 10px 0 10px 0;
+}
+
+#deleteIcon {
+    float: right;
+}
+
+.deleteIconWrap {
+    font-size: 40px;
+    text-align: right;
+}
+
+li:hover {
+    font-size: 34px;
+    background: rgba(0, 0, 0, 0.2);
+}
