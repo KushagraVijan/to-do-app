@@ -1,1 +1,1 @@
-module.exports = "mongodb+srv://Kushagra:Kushagra%2303@to-do-efp1d.mongodb.net/To-Do?retryWrites=true&w=majority";
+module.exports = "mongodb+srv://<Name>:<Password>@to-do-efp1d.mongodb.net/<Data-Base Name>?retryWrites=true&w=majority";
